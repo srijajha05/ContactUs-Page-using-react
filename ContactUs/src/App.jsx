@@ -1,11 +1,15 @@
 import React from 'react'
-import NavBar from './components/NavBar'
-import "./App.css"
+import Navigation from './components/Navigation/Navigation'
+import './App.css'
+import ContactHeader from './components/ContactHeader/ContactHeader'
+import ContactForm from './components/ContactForm/ContactForm'
 
 function App() {
   return (
     <div>
-      <NavBar/>
+      <Navigation/>
+      <ContactHeader/>
+      <ContactForm/>
     </div>
   )
 }

@@ -1,8 +1,6 @@
 body{
   background: black;
   color:white;
-  margin: 0 auto;
-  max-width: 1280 px;
 }
 
 button {
@@ -14,15 +12,9 @@ button {
   font-weight: 500;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  height: 72px;
-  align-items: center;
-}
 
-nav ul {
-  display: flex;
-  list-style: none;
-  gap: 24px;
+
+.container{
+  margin: 0 auto;
+  max-width: 1280 px;
 }

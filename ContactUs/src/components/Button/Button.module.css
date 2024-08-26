@@ -1,0 +1,25 @@
+.myButton{
+    padding:18px 10px;
+    min-width:220px;
+    border-radius:5px;
+    display:flex;
+    align-item:center;
+    gap:8px;
+    justify-content:center;
+    cursor:pointer;
+    
+}
+.transparentButton{
+    padding:18px 10px;
+    min-width:220px;
+    border:1px solid white;
+    display:flex;
+    align-item:center;
+    gap:8px;
+    justify-content:center;
+    color:white;
+    background-color:black;
+    width:100%;
+    margin-top:10px;
+    cursor:pointer;
+}

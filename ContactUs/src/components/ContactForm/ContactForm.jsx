@@ -16,14 +16,39 @@ function ContactForm() {
             <Button text="VIA SUPPORT CHAT" icon={<MdMessage fontSize="24px"/>}/>
             <Button text="VIA CALL" icon={<IoCall fontSize="24px"/>}/>
             </div>
+            <div>
             <Button 
             isOutline ={true}
             text="VIA EMAIL" icon={<MdEmail fontSize="24px"/>}/>
-        </div>
-        <div className={`${styles.contact_form_image}`}>
+            </div>
+        
+        
+        <form>
+          <div className={styles.form_control}>
+            <label htmlfor="Name">Name</label>
+            <input type="text" name='name'/>
+          </div>
+          <div className={styles.form_control}>
+            <label htmlfor="email">E-Mail</label>
+            <input type="text" name='email'/>
+          </div>
+          <div className={styles.form_control}>
+            <label htmlfor="text">Text</label>
+            <textarea name='text' rows="8"/>
+          </div>
+          <div style={{
+            display:"flex",
+            justifyContent:"end",
+          }}>
+          <Button text="SUBMIT"/>
+          </div>
 
+        </form>
+        
         </div>
-      
+        <div className={styles.contactImage}>
+          <img src="/images.png" alt="Contact_Us_Image"/>
+        </div>
     </div>
   )
 }

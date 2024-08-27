@@ -1,9 +1,17 @@
 .pageInfo h1{
     font-size:48px;
     font-weight:800;
+    display:flex;
+    max-width: 1000px;
+    margin:0 auto;
+    margin-top:40px;
     
 }
 .pageInfo p{
     font-size:20px;
     font-weight:500;
+    display:flex;
+    max-width: 1000px;
+    margin:0 auto;
+    margin-top:40px;
 }
